@@ -48,7 +48,7 @@ alert(user[info]);
 let nameUser= prompt('Ваше имя')
 alert('Привет, ' + nameUser+'!')*/
 
-/*let password = '12345';
+let password = '12345';
 let passwordUser = prompt('Введите пароль');
 
 if (password === passwordUser) {
@@ -121,4 +121,4 @@ switch (month) {
     default:
         console.log('Такого месяца не существует');
         break;
-}*/
+}
