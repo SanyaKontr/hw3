@@ -1,4 +1,4 @@
-/*let password = '12345';
+let password = '12345';
 let passwordUser = prompt('Введите пароль');
 
 if (password === passwordUser) {
@@ -55,4 +55,4 @@ switch (month) {
     default:
         console.log('Такого месяца не существует');
         break;
-}*/
+}
