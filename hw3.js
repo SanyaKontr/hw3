@@ -22,7 +22,7 @@ if (d > 100 || e > 100) {
 } else {
     console.log('Не верно');
 }
-
+*/
 
 let a = '2';
 let b = '3';
@@ -55,9 +55,9 @@ switch (month) {
     default:
         console.log('Такого месяца не существует');
         break;
-}*/
+}
 
-let number;
+/*let number;
 do {
     number = Number(prompt('Введите 5'))
-} while (number !== 5);
+} while (number !== 5);*/
