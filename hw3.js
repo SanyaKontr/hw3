@@ -1,4 +1,4 @@
-let password = '12345';
+/*let password = '12345';
 let passwordUser = prompt('Введите пароль');
 
 if (password === passwordUser) {
@@ -22,7 +22,7 @@ if (d > 100 || e > 100) {
 } else {
     console.log('Не верно');
 }
-
+*/
 
 let a = '2';
 let b = '3';
@@ -56,3 +56,8 @@ switch (month) {
         console.log('Такого месяца не существует');
         break;
 }
+
+/*let number;
+do {
+    number = Number(prompt('Введите 5'))
+} while (number !== 5);*/
