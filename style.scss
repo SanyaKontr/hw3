@@ -43,7 +43,7 @@
     line-height: 32px;
     }
     .button{
-        border-radius: 30px;
+    border-radius: 30px;
     background: #9C0332;
     width: 234.063px;
     height: 48.603px;
@@ -95,11 +95,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
-    
-    &:hover{
-        transform: scale(1.03);
-        transition: 0.3s;
-    }
     }
     .games__variant_2{
         width: 379px;
@@ -114,6 +109,7 @@
         flex-shrink: 0;
         color: white;
         background-image: url(img/Game3.png);
+        
     }
     .game-link{
         text-decoration: none;
@@ -162,6 +158,62 @@ line-height: normal;
     justify-content: space-between;
     padding-bottom: 239px;
     flex-direction: row-reverse;
+}
+.seasons__text_riddles{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    align-items: center; 
+}
+.seasons__text_priddles{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 177.778% */
+    width: 584px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 1200px;
+    text-align: center;
+}
+.riddles{
+padding-top: 276px;
+padding-bottom: 288px;
+display: flex;
+background-image: url(img/riddles.png);
+background-size: cover;
+background-repeat: round;
+}
+.button-div_riddles{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    :hover{
+        transform: scale(1.03);
+        transition: 0.3s;
+    }
+}
+.footer{
+    background: #000915;
+    display: flex;
+    justify-content: center;
+    border:1px solid rgba(184, 212, 255, 0.20);
+}
+.footer__text{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 33px;
+padding-bottom: 33px;
 }
 
     @import 'mobile';

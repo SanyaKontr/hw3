@@ -107,5 +107,38 @@ padding-top: 64px;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 90px;
+}
+.riddles{
+    padding-top: 276px;
+    padding-bottom: 288px;
+    display: flex;
+    background-image: url(img/riddles.png);
+    background-size: cover;
+    background-repeat: round;
+    flex-direction: column;
+    padding-bottom: 487px;
+    padding-top: 51px;
+}
+.seasons__text_priddles{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px; /* 157.143% */
+    width: 343px;
+}
+.seasons__text_riddles{
+   color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 }
+
+
