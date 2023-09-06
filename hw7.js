@@ -30,16 +30,16 @@ function getRandom(min, max) {
 console.log(Math.floor(getRandom(0, 10)));
 
 //Задание 6
+function startMass(array) {
+let newMass = [];
+for ( let i = 0; i < Math.floor(array/2); i++){
 
-function array(max) {
-    let array = [];
-    for (let y = 0; y < max; y++) {
-        array[y] = y + 1;
-        array = array.sort(() => Math.random() - 0.5);
-    }  
-    return array;
+    newMass.push(Math.floor(Math.random()*array));
 }
-console.log(array(prompt(`Введите число`)/2));
+return newMass;
+}
+console.log(startMass(7));
+
 
 //Задание 7
 function getRandom(min, max) {
@@ -55,26 +55,32 @@ let todayDate = new Date();
 console.log(todayDate);
 
 //Задание 9
-let getDate = new Date;
-console.log(getDate);
-
-getDate.setDate(73);
-console.log(getDate);
+let currentDate = new Date;
+console.log(currentDate);
+currentDate.setDate(currentDate.getDate() + 73)
+console.log(currentDate);
 
 //Задание 10
 const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
-const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+
+const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня",
+"Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
 
 let myDate = new Date();
 let hour = myDate.getHours();
 let minute = myDate.getMinutes();
 let second = myDate.getSeconds();
-let fullDate = "Дата: " + months[myDate.getMonth()] + " " + myDate.getDate()+ " число" + " " + myDate.getFullYear() + ", это " + days[myDate.getDay()];
+
+let fullDate = "Дата: " + myDate.getDate() +
+" " + months[myDate.getMonth()] +
+" " + myDate.getFullYear() +
+", это " + days[myDate.getDay()];
+
 let fullTime = "Время: " + hour + `:` + minute+ `:` + second;
 
 console.log(fullDate);
 console.log(fullTime);
+
 
 //Задание 11
 
